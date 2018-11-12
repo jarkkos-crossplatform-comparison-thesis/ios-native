@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DB79CDC219A07BD00631661 /* ButtonLatencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB79CDB219A07BD00631661 /* ButtonLatencyViewController.swift */; };
+		4DB79CDE219A07D400631661 /* NotImplementedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB79CDD219A07D400631661 /* NotImplementedViewController.swift */; };
+		4DB79CE0219A07E300631661 /* VibrationLatencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB79CDF219A07E300631661 /* VibrationLatencyViewController.swift */; };
 		5F9CEA2D21289260003F8692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CEA2C21289260003F8692 /* AppDelegate.swift */; };
-		5F9CEA2F21289260003F8692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CEA2E21289260003F8692 /* ViewController.swift */; };
+		5F9CEA2F21289260003F8692 /* SelectTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CEA2E21289260003F8692 /* SelectTestViewController.swift */; };
 		5F9CEA3221289260003F8692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9CEA3021289260003F8692 /* Main.storyboard */; };
 		5F9CEA3421289261003F8692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9CEA3321289261003F8692 /* Assets.xcassets */; };
 		5F9CEA3721289261003F8692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9CEA3521289261003F8692 /* LaunchScreen.storyboard */; };
@@ -41,9 +44,12 @@
 		1828DDF0158C8A97792F1D2F /* Pods-Thesis comparison iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thesis comparison iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thesis comparison iOSTests/Pods-Thesis comparison iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D9990A1AADFB556B97E0AD9 /* Pods-Thesis comparison iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thesis comparison iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thesis comparison iOS/Pods-Thesis comparison iOS.release.xcconfig"; sourceTree = "<group>"; };
 		3B1EDF84D649E25DA689CBE9 /* Pods-Thesis comparison iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thesis comparison iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thesis comparison iOSUITests/Pods-Thesis comparison iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4DB79CDB219A07BD00631661 /* ButtonLatencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLatencyViewController.swift; sourceTree = "<group>"; };
+		4DB79CDD219A07D400631661 /* NotImplementedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotImplementedViewController.swift; sourceTree = "<group>"; };
+		4DB79CDF219A07E300631661 /* VibrationLatencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationLatencyViewController.swift; sourceTree = "<group>"; };
 		5F9CEA2921289260003F8692 /* Thesis comparison iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thesis comparison iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9CEA2C21289260003F8692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F9CEA2E21289260003F8692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F9CEA2E21289260003F8692 /* SelectTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTestViewController.swift; sourceTree = "<group>"; };
 		5F9CEA3121289260003F8692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F9CEA3321289261003F8692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F9CEA3621289261003F8692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,6 +95,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DB79CDA219A071600631661 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5F9CEA2E21289260003F8692 /* SelectTestViewController.swift */,
+				4DB79CDB219A07BD00631661 /* ButtonLatencyViewController.swift */,
+				4DB79CDD219A07D400631661 /* NotImplementedViewController.swift */,
+				4DB79CDF219A07E300631661 /* VibrationLatencyViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		5F9CEA2021289260003F8692 = {
 			isa = PBXGroup;
 			children = (
@@ -114,8 +131,8 @@
 		5F9CEA2B21289260003F8692 /* Thesis comparison iOS */ = {
 			isa = PBXGroup;
 			children = (
+				4DB79CDA219A071600631661 /* Screens */,
 				5F9CEA2C21289260003F8692 /* AppDelegate.swift */,
-				5F9CEA2E21289260003F8692 /* ViewController.swift */,
 				5F9CEA3021289260003F8692 /* Main.storyboard */,
 				5F9CEA3321289261003F8692 /* Assets.xcassets */,
 				5F9CEA3521289261003F8692 /* LaunchScreen.storyboard */,
@@ -356,8 +373,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F9CEA2F21289260003F8692 /* ViewController.swift in Sources */,
+				5F9CEA2F21289260003F8692 /* SelectTestViewController.swift in Sources */,
+				4DB79CDE219A07D400631661 /* NotImplementedViewController.swift in Sources */,
+				4DB79CE0219A07E300631661 /* VibrationLatencyViewController.swift in Sources */,
 				5F9CEA2D21289260003F8692 /* AppDelegate.swift in Sources */,
+				4DB79CDC219A07BD00631661 /* ButtonLatencyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
