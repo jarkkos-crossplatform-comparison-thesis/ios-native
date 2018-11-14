@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class NotImplementedViewController: UIViewController {
+class NotImplementedViewController: NoAnimationPopUIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }

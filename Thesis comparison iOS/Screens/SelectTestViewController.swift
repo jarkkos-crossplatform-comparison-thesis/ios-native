@@ -40,7 +40,7 @@ class SelectTestViewController: UIViewController {
     
     @objc func openVibrationLatencyTest() {
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        let vibrationLatencyVC = storyBoard.instantiateViewController(withIdentifier: "NotImplemented")
+        let vibrationLatencyVC = storyBoard.instantiateViewController(withIdentifier: "VibrationLatency")
         self.navigationController!.pushViewController(vibrationLatencyVC, animated: false)
     }
     

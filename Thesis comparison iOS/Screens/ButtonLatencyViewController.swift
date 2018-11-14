@@ -9,8 +9,26 @@
 import Foundation
 import UIKit
 
-class ButtonLatencyViewController: UIViewController {
+class ButtonLatencyViewController: NoAnimationPopUIViewController {
+    var counter = 0
+    var counterLabel: UILabel? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        counterLabel = view.viewWithTag(2) as? UILabel
+        updateLabel()
+        
+        let incrementBtn = view.viewWithTag(1) as? UIButton
+        incrementBtn?.addTarget(self, action: #selector(incrementCounter), for: .touchDown)
+    }
+    
+    @objc func incrementCounter(sender: UIButton) {
+        counter += 1
+        updateLabel()
+    }
+    
+    func updateLabel() {
+        self.counterLabel?.text = String(counter)
     }
 }
