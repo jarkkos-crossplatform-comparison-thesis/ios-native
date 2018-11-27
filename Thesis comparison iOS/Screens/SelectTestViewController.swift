@@ -23,7 +23,7 @@ class SelectTestViewController: UIViewController {
         btnNetworkListView?.addTarget(self, action: #selector(openNotImplementedScreen), for: .touchDown)
         
         let btnHeavyComputation = view.viewWithTag(4) as? UIButton
-        btnHeavyComputation?.addTarget(self, action: #selector(openNotImplementedScreen), for: .touchDown)
+        btnHeavyComputation?.addTarget(self, action: #selector(openHeavyComputationTest), for: .touchDown)
         
         let btnVibrationLatency = view.viewWithTag(5) as? UIButton
         btnVibrationLatency?.addTarget(self, action: #selector(openVibrationLatencyTest), for: .touchDown)
@@ -35,6 +35,12 @@ class SelectTestViewController: UIViewController {
     @objc func openButtonLatencyTest() {
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         let buttonLatencyVC = storyBoard.instantiateViewController(withIdentifier: "ButtonLatency")
+        self.navigationController!.pushViewController(buttonLatencyVC, animated: false)
+    }
+    
+    @objc func openHeavyComputationTest() {
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let buttonLatencyVC = storyBoard.instantiateViewController(withIdentifier: "HeavyComputation")
         self.navigationController!.pushViewController(buttonLatencyVC, animated: false)
     }
     
