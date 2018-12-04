@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D1B2B0721ADAC1100DA77DE /* HeavyComputationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B2B0621ADAC1100DA77DE /* HeavyComputationViewController.swift */; };
 		4D1D693C219C89BB00F97AFE /* NoAnimationPopUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D693B219C89BB00F97AFE /* NoAnimationPopUIViewController.swift */; };
+		4D20FCE921B6F19D00889F9F /* ListItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20FCE821B6F19D00889F9F /* ListItemsViewController.swift */; };
 		4DB79CDC219A07BD00631661 /* ButtonLatencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB79CDB219A07BD00631661 /* ButtonLatencyViewController.swift */; };
 		4DB79CDE219A07D400631661 /* NotImplementedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB79CDD219A07D400631661 /* NotImplementedViewController.swift */; };
 		4DB79CE0219A07E300631661 /* VibrationLatencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB79CDF219A07E300631661 /* VibrationLatencyViewController.swift */; };
@@ -48,6 +49,7 @@
 		3B1EDF84D649E25DA689CBE9 /* Pods-Thesis comparison iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thesis comparison iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thesis comparison iOSUITests/Pods-Thesis comparison iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4D1B2B0621ADAC1100DA77DE /* HeavyComputationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeavyComputationViewController.swift; sourceTree = "<group>"; };
 		4D1D693B219C89BB00F97AFE /* NoAnimationPopUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoAnimationPopUIViewController.swift; sourceTree = "<group>"; };
+		4D20FCE821B6F19D00889F9F /* ListItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemsViewController.swift; sourceTree = "<group>"; };
 		4DB79CDB219A07BD00631661 /* ButtonLatencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLatencyViewController.swift; sourceTree = "<group>"; };
 		4DB79CDD219A07D400631661 /* NotImplementedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotImplementedViewController.swift; sourceTree = "<group>"; };
 		4DB79CDF219A07E300631661 /* VibrationLatencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationLatencyViewController.swift; sourceTree = "<group>"; };
@@ -99,16 +101,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DB79CDA219A071600631661 /* Screens */ = {
+		4D20FCEA21B6F1BD00889F9F /* HeavyComputation */ = {
 			isa = PBXGroup;
 			children = (
-				5F9CEA2E21289260003F8692 /* SelectTestViewController.swift */,
-				4DB79CDB219A07BD00631661 /* ButtonLatencyViewController.swift */,
-				4DB79CDD219A07D400631661 /* NotImplementedViewController.swift */,
-				4DB79CDF219A07E300631661 /* VibrationLatencyViewController.swift */,
 				4D1B2B0621ADAC1100DA77DE /* HeavyComputationViewController.swift */,
 			);
-			path = Screens;
+			path = HeavyComputation;
+			sourceTree = "<group>";
+		};
+		4D20FCEB21B6F1CF00889F9F /* Vibration */ = {
+			isa = PBXGroup;
+			children = (
+				4DB79CDF219A07E300631661 /* VibrationLatencyViewController.swift */,
+			);
+			path = Vibration;
+			sourceTree = "<group>";
+		};
+		4D20FCEC21B6F1D900889F9F /* ListItems */ = {
+			isa = PBXGroup;
+			children = (
+				4D20FCE821B6F19D00889F9F /* ListItemsViewController.swift */,
+			);
+			path = ListItems;
+			sourceTree = "<group>";
+		};
+		4D20FCED21B6F1E200889F9F /* ButtonLatency */ = {
+			isa = PBXGroup;
+			children = (
+				4DB79CDB219A07BD00631661 /* ButtonLatencyViewController.swift */,
+			);
+			path = ButtonLatency;
 			sourceTree = "<group>";
 		};
 		5F9CEA2021289260003F8692 = {
@@ -136,7 +158,12 @@
 		5F9CEA2B21289260003F8692 /* Thesis comparison iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4DB79CDA219A071600631661 /* Screens */,
+				5F9CEA2E21289260003F8692 /* SelectTestViewController.swift */,
+				4DB79CDD219A07D400631661 /* NotImplementedViewController.swift */,
+				4D20FCED21B6F1E200889F9F /* ButtonLatency */,
+				4D20FCEC21B6F1D900889F9F /* ListItems */,
+				4D20FCEB21B6F1CF00889F9F /* Vibration */,
+				4D20FCEA21B6F1BD00889F9F /* HeavyComputation */,
 				5F9CEA2C21289260003F8692 /* AppDelegate.swift */,
 				5F9CEA3021289260003F8692 /* Main.storyboard */,
 				5F9CEA3321289261003F8692 /* Assets.xcassets */,
@@ -385,6 +412,7 @@
 				5F9CEA2D21289260003F8692 /* AppDelegate.swift in Sources */,
 				4D1D693C219C89BB00F97AFE /* NoAnimationPopUIViewController.swift in Sources */,
 				4D1B2B0721ADAC1100DA77DE /* HeavyComputationViewController.swift in Sources */,
+				4D20FCE921B6F19D00889F9F /* ListItemsViewController.swift in Sources */,
 				4DB79CDC219A07BD00631661 /* ButtonLatencyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
