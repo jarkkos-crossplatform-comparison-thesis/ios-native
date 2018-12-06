@@ -17,10 +17,10 @@ class SelectTestViewController: UIViewController {
         btnLatency?.addTarget(self, action: #selector(openButtonLatencyTest), for: .touchDown)
         
         let btnLocalListView = view.viewWithTag(2) as? UIButton
-        btnLocalListView?.addTarget(self, action: #selector(openNotImplementedScreen), for: .touchDown)
+        btnLocalListView?.addTarget(self, action: #selector(openLocalListItemsTest), for: .touchDown)
         
         let btnNetworkListView = view.viewWithTag(3) as? UIButton
-        btnNetworkListView?.addTarget(self, action: #selector(openNotImplementedScreen), for: .touchDown)
+        btnNetworkListView?.addTarget(self, action: #selector(openNetworkListItemsTest), for: .touchDown)
         
         let btnHeavyComputation = view.viewWithTag(4) as? UIButton
         btnHeavyComputation?.addTarget(self, action: #selector(openHeavyComputationTest), for: .touchDown)
@@ -38,10 +38,24 @@ class SelectTestViewController: UIViewController {
         self.navigationController!.pushViewController(buttonLatencyVC, animated: false)
     }
     
+    @objc func openLocalListItemsTest() {
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let localListItemsVc = storyBoard.instantiateViewController(withIdentifier: "ListItems") as! ListItemsViewController
+        localListItemsVc.dataLoader = LocalDataLoader(mainBundle: Bundle.main)
+        self.navigationController!.pushViewController(localListItemsVc, animated: false)
+    }
+    
+    @objc func openNetworkListItemsTest() {
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let networkListItemsVc = storyBoard.instantiateViewController(withIdentifier: "ListItems") as! ListItemsViewController
+        networkListItemsVc.dataLoader = NetworkDataLoader()
+        self.navigationController!.pushViewController(networkListItemsVc, animated: false)
+    }
+    
     @objc func openHeavyComputationTest() {
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        let buttonLatencyVC = storyBoard.instantiateViewController(withIdentifier: "HeavyComputation")
-        self.navigationController!.pushViewController(buttonLatencyVC, animated: false)
+        let heavyComputationVc = storyBoard.instantiateViewController(withIdentifier: "HeavyComputation")
+        self.navigationController!.pushViewController(heavyComputationVc, animated: false)
     }
     
     @objc func openVibrationLatencyTest() {
