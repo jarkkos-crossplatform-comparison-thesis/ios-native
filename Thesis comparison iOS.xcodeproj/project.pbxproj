@@ -314,8 +314,8 @@
 		4D26962A21B95D4C001D10E2 /* 265.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D2694FE21B95D4C001D10E2 /* 265.jpg */; };
 		4D26962C21B95DC6001D10E2 /* listItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D26962B21B95DC6001D10E2 /* listItems.json */; };
 		4D569ABA21B94EEA00E6C154 /* ItemDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D569AB921B94EEA00E6C154 /* ItemDataLoader.swift */; };
+		4DADFE3221BDB4AD00614448 /* ThirdPartyNoticesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DADFE3121BDB4AD00614448 /* ThirdPartyNoticesViewController.swift */; };
 		4DB79CDC219A07BD00631661 /* ButtonLatencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB79CDB219A07BD00631661 /* ButtonLatencyViewController.swift */; };
-		4DB79CDE219A07D400631661 /* NotImplementedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB79CDD219A07D400631661 /* NotImplementedViewController.swift */; };
 		4DB79CE0219A07E300631661 /* VibrationLatencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB79CDF219A07E300631661 /* VibrationLatencyViewController.swift */; };
 		5F9CEA2D21289260003F8692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CEA2C21289260003F8692 /* AppDelegate.swift */; };
 		5F9CEA2F21289260003F8692 /* SelectTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CEA2E21289260003F8692 /* SelectTestViewController.swift */; };
@@ -658,8 +658,8 @@
 		4D2694FE21B95D4C001D10E2 /* 265.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 265.jpg; sourceTree = "<group>"; };
 		4D26962B21B95DC6001D10E2 /* listItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listItems.json; sourceTree = "<group>"; };
 		4D569AB921B94EEA00E6C154 /* ItemDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDataLoader.swift; sourceTree = "<group>"; };
+		4DADFE3121BDB4AD00614448 /* ThirdPartyNoticesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartyNoticesViewController.swift; sourceTree = "<group>"; };
 		4DB79CDB219A07BD00631661 /* ButtonLatencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLatencyViewController.swift; sourceTree = "<group>"; };
-		4DB79CDD219A07D400631661 /* NotImplementedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotImplementedViewController.swift; sourceTree = "<group>"; };
 		4DB79CDF219A07E300631661 /* VibrationLatencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationLatencyViewController.swift; sourceTree = "<group>"; };
 		5F9CEA2921289260003F8692 /* Thesis comparison iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thesis comparison iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9CEA2C21289260003F8692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -1060,6 +1060,22 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		4DADFE2E21BDB45A00614448 /* SelecTest */ = {
+			isa = PBXGroup;
+			children = (
+				5F9CEA2E21289260003F8692 /* SelectTestViewController.swift */,
+			);
+			path = SelecTest;
+			sourceTree = "<group>";
+		};
+		4DADFE3021BDB49500614448 /* ThirdPartyNotices */ = {
+			isa = PBXGroup;
+			children = (
+				4DADFE3121BDB4AD00614448 /* ThirdPartyNoticesViewController.swift */,
+			);
+			path = ThirdPartyNotices;
+			sourceTree = "<group>";
+		};
 		5F9CEA2021289260003F8692 = {
 			isa = PBXGroup;
 			children = (
@@ -1085,9 +1101,9 @@
 		5F9CEA2B21289260003F8692 /* Thesis comparison iOS */ = {
 			isa = PBXGroup;
 			children = (
+				4DADFE3021BDB49500614448 /* ThirdPartyNotices */,
+				4DADFE2E21BDB45A00614448 /* SelecTest */,
 				4D2693D121B95D0A001D10E2 /* ItemData */,
-				5F9CEA2E21289260003F8692 /* SelectTestViewController.swift */,
-				4DB79CDD219A07D400631661 /* NotImplementedViewController.swift */,
 				4D20FCED21B6F1E200889F9F /* ButtonLatency */,
 				4D20FCEC21B6F1D900889F9F /* ListItems */,
 				4D20FCEB21B6F1CF00889F9F /* Vibration */,
@@ -1637,13 +1653,13 @@
 			files = (
 				4D569ABA21B94EEA00E6C154 /* ItemDataLoader.swift in Sources */,
 				5F9CEA2F21289260003F8692 /* SelectTestViewController.swift in Sources */,
-				4DB79CDE219A07D400631661 /* NotImplementedViewController.swift in Sources */,
 				4DB79CE0219A07E300631661 /* VibrationLatencyViewController.swift in Sources */,
 				4D20FCF021B6F87500889F9F /* ListItem.swift in Sources */,
 				4D20FCF221B6FB6200889F9F /* ListItemCell.swift in Sources */,
 				5F9CEA2D21289260003F8692 /* AppDelegate.swift in Sources */,
 				4D1D693C219C89BB00F97AFE /* NoAnimationPopUIViewController.swift in Sources */,
 				4D1B2B0721ADAC1100DA77DE /* HeavyComputationViewController.swift in Sources */,
+				4DADFE3221BDB4AD00614448 /* ThirdPartyNoticesViewController.swift in Sources */,
 				4D20FCE921B6F19D00889F9F /* ListItemsViewController.swift in Sources */,
 				4DB79CDC219A07BD00631661 /* ButtonLatencyViewController.swift in Sources */,
 			);
@@ -1819,6 +1835,7 @@
 			baseConfigurationReference = E57C5983DCB3882BD294C441 /* Pods-Thesis comparison iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F85DFXE4SZ;
 				INFOPLIST_FILE = "Thesis comparison iOS/Info.plist";
@@ -1826,8 +1843,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "thesis.jara.fi.Thesis-comparison-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = fi.jarkkos.thesisbenchmarking.nativeios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1838,6 +1856,7 @@
 			baseConfigurationReference = 1D9990A1AADFB556B97E0AD9 /* Pods-Thesis comparison iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F85DFXE4SZ;
 				INFOPLIST_FILE = "Thesis comparison iOS/Info.plist";
@@ -1845,8 +1864,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "thesis.jara.fi.Thesis-comparison-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = fi.jarkkos.thesisbenchmarking.nativeios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

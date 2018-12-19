@@ -54,8 +54,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version whatever" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROL-sM-1aa">
-                                <rect key="frame" x="94" y="109" width="132" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROL-sM-1aa">
+                                <rect key="frame" x="124.5" y="109" width="71.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -197,20 +197,55 @@
             </objects>
             <point key="canvasLocation" x="2072" y="133"/>
         </scene>
-        <!--Not Implemented View Controller-->
+        <!--Third Party Notices View Controller-->
         <scene sceneID="dqS-qb-2w2">
             <objects>
-                <viewController storyboardIdentifier="NotImplemented" id="CJL-me-DJb" customClass="NotImplementedViewController" customModule="Thesis_comparison_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NotImplemented" id="CJL-me-DJb" customClass="ThirdPartyNoticesViewController" customModule="Thesis_comparison_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="peB-Ou-19G">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listview images from Caltech 101 dataset" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldQ-Qj-pEc">
+                                <rect key="frame" x="16" y="68" width="288" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rE2-1f-cqp">
+                                <rect key="frame" x="16" y="125" width="288" height="100.5"/>
+                                <string key="text">L. Fei-Fei, R. Fergus and P. Perona. Learning generative visual models
+from few training examples: an incremental Bayesian approach tested on
+101 object categories. IEEE. CVPR 2004, Workshop on Generative-Model
+Based Vision. 2004</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Placeholder texts generated at https://www.lipsum.com/" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaD-p3-Wsq">
+                                <rect key="frame" x="16" y="241.5" width="288" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rE2-1f-cqp" firstAttribute="top" secondItem="ldQ-Qj-pEc" secondAttribute="bottom" constant="16" id="68u-eW-14g"/>
+                            <constraint firstItem="TaD-p3-Wsq" firstAttribute="top" secondItem="rE2-1f-cqp" secondAttribute="bottom" constant="16" id="Eds-rh-S3d"/>
+                            <constraint firstItem="rE2-1f-cqp" firstAttribute="leading" secondItem="Hnx-82-Dzy" secondAttribute="leading" constant="16" id="K6e-R2-dUe"/>
+                            <constraint firstItem="Hnx-82-Dzy" firstAttribute="trailing" secondItem="ldQ-Qj-pEc" secondAttribute="trailing" constant="16" id="Ta6-qv-6wy"/>
+                            <constraint firstAttribute="trailing" secondItem="TaD-p3-Wsq" secondAttribute="trailing" constant="16" id="asV-Tm-QyQ"/>
+                            <constraint firstItem="TaD-p3-Wsq" firstAttribute="leading" secondItem="Hnx-82-Dzy" secondAttribute="leading" constant="16" id="btC-Ru-EEA"/>
+                            <constraint firstItem="ldQ-Qj-pEc" firstAttribute="leading" secondItem="Hnx-82-Dzy" secondAttribute="leading" constant="16" id="hJY-7I-oxY"/>
+                            <constraint firstItem="ldQ-Qj-pEc" firstAttribute="top" secondItem="Hnx-82-Dzy" secondAttribute="top" constant="48" id="lgg-6C-dDC"/>
+                            <constraint firstItem="Hnx-82-Dzy" firstAttribute="trailing" secondItem="rE2-1f-cqp" secondAttribute="trailing" constant="16" id="wzd-nA-GUj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Hnx-82-Dzy"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oqm-5f-UsI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1221" y="-643"/>
+            <point key="canvasLocation" x="1220.625" y="-643.30985915492954"/>
         </scene>
         <!--List Items View Controller-->
         <scene sceneID="Vir-gr-gbY">
@@ -237,8 +272,8 @@
                                                         <constraint firstAttribute="width" secondItem="vtl-eQ-uUT" secondAttribute="height" multiplier="1:1" id="iOP-ig-brw"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ur8-fp-HFS">
-                                                    <rect key="frame" x="104" y="2" width="201" height="86"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ur8-fp-HFS">
+                                                    <rect key="frame" x="103.5" y="2" width="200.5" height="85.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -249,7 +284,9 @@
                                                 <constraint firstItem="vtl-eQ-uUT" firstAttribute="leading" secondItem="64k-8x-EDb" secondAttribute="leading" constant="2" id="Vej-k3-of0"/>
                                                 <constraint firstAttribute="trailing" secondItem="Ur8-fp-HFS" secondAttribute="trailing" constant="16" id="Vvy-22-k9g"/>
                                                 <constraint firstAttribute="bottom" secondItem="vtl-eQ-uUT" secondAttribute="bottom" constant="2" id="cBj-Bj-P1O"/>
+                                                <constraint firstItem="Ur8-fp-HFS" firstAttribute="top" secondItem="64k-8x-EDb" secondAttribute="top" constant="2" id="eJu-Rb-n4F"/>
                                                 <constraint firstItem="vtl-eQ-uUT" firstAttribute="top" secondItem="64k-8x-EDb" secondAttribute="top" constant="2" id="uXC-nL-a0F"/>
+                                                <constraint firstAttribute="bottom" secondItem="Ur8-fp-HFS" secondAttribute="bottom" constant="2" id="xbB-JK-Bx5"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
