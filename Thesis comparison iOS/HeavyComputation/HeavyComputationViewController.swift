@@ -102,7 +102,7 @@ func isPrimeNumber(_ number: Int) -> Bool {
     if (number == 1) {
         return false
     }
-    if (number <= 3) {
+    if (number == 2 || number == 3) {
         return true
     }
     
@@ -116,3 +116,4 @@ func isPrimeNumber(_ number: Int) -> Bool {
     
     return true
 }
+

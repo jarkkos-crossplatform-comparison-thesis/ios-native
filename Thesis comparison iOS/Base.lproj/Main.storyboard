@@ -54,8 +54,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROL-sM-1aa">
-                                <rect key="frame" x="124.5" y="109" width="71.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROL-sM-1aa">
+                                <rect key="frame" x="124" y="109" width="72" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -205,14 +205,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listview images from Caltech 101 dataset" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldQ-Qj-pEc">
-                                <rect key="frame" x="16" y="68" width="288" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS SDK by Apple Inc." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldQ-Qj-pEc">
+                                <rect key="frame" x="16" y="52" width="288" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rE2-1f-cqp">
-                                <rect key="frame" x="16" y="125" width="288" height="100.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://developer.apple.com/" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rE2-1f-cqp">
+                                <rect key="frame" x="16" y="80.5" width="288" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listview images from Caltech 101 dataset" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Za-eI-CIU">
+                                <rect key="frame" x="16" y="127" width="288" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zjk-33-zdG">
+                                <rect key="frame" x="16" y="176" width="288" height="101"/>
                                 <string key="text">L. Fei-Fei, R. Fergus and P. Perona. Learning generative visual models
 from few training examples: an incremental Bayesian approach tested on
 101 object categories. IEEE. CVPR 2004, Workshop on Generative-Model
@@ -221,8 +233,8 @@ Based Vision. 2004</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Placeholder texts generated at https://www.lipsum.com/" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaD-p3-Wsq">
-                                <rect key="frame" x="16" y="241.5" width="288" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Placeholder texts generated at https://www.lipsum.com/" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkG-jg-mdz">
+                                <rect key="frame" x="16" y="308.5" width="288" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -230,15 +242,21 @@ Based Vision. 2004</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="rE2-1f-cqp" firstAttribute="top" secondItem="ldQ-Qj-pEc" secondAttribute="bottom" constant="16" id="68u-eW-14g"/>
-                            <constraint firstItem="TaD-p3-Wsq" firstAttribute="top" secondItem="rE2-1f-cqp" secondAttribute="bottom" constant="16" id="Eds-rh-S3d"/>
-                            <constraint firstItem="rE2-1f-cqp" firstAttribute="leading" secondItem="Hnx-82-Dzy" secondAttribute="leading" constant="16" id="K6e-R2-dUe"/>
-                            <constraint firstItem="Hnx-82-Dzy" firstAttribute="trailing" secondItem="ldQ-Qj-pEc" secondAttribute="trailing" constant="16" id="Ta6-qv-6wy"/>
-                            <constraint firstAttribute="trailing" secondItem="TaD-p3-Wsq" secondAttribute="trailing" constant="16" id="asV-Tm-QyQ"/>
-                            <constraint firstItem="TaD-p3-Wsq" firstAttribute="leading" secondItem="Hnx-82-Dzy" secondAttribute="leading" constant="16" id="btC-Ru-EEA"/>
-                            <constraint firstItem="ldQ-Qj-pEc" firstAttribute="leading" secondItem="Hnx-82-Dzy" secondAttribute="leading" constant="16" id="hJY-7I-oxY"/>
-                            <constraint firstItem="ldQ-Qj-pEc" firstAttribute="top" secondItem="Hnx-82-Dzy" secondAttribute="top" constant="48" id="lgg-6C-dDC"/>
-                            <constraint firstItem="Hnx-82-Dzy" firstAttribute="trailing" secondItem="rE2-1f-cqp" secondAttribute="trailing" constant="16" id="wzd-nA-GUj"/>
+                            <constraint firstItem="Hnx-82-Dzy" firstAttribute="trailing" secondItem="dkG-jg-mdz" secondAttribute="trailing" constant="16" id="5QU-pK-hhS"/>
+                            <constraint firstItem="Zjk-33-zdG" firstAttribute="leading" secondItem="Hnx-82-Dzy" secondAttribute="leading" constant="16" id="62B-aV-3di"/>
+                            <constraint firstItem="1Za-eI-CIU" firstAttribute="top" secondItem="rE2-1f-cqp" secondAttribute="bottom" constant="32" id="8Qz-F3-nQQ"/>
+                            <constraint firstItem="1Za-eI-CIU" firstAttribute="leading" secondItem="Hnx-82-Dzy" secondAttribute="leading" constant="16" id="8ta-Uk-SMh"/>
+                            <constraint firstItem="rE2-1f-cqp" firstAttribute="leading" secondItem="Hnx-82-Dzy" secondAttribute="leading" constant="16" id="AxG-uB-ea2"/>
+                            <constraint firstItem="Hnx-82-Dzy" firstAttribute="trailing" secondItem="ldQ-Qj-pEc" secondAttribute="trailing" constant="16" id="E9I-LG-bvz"/>
+                            <constraint firstItem="rE2-1f-cqp" firstAttribute="top" secondItem="ldQ-Qj-pEc" secondAttribute="bottom" constant="8" id="H4U-tN-fWi"/>
+                            <constraint firstItem="dkG-jg-mdz" firstAttribute="leading" secondItem="Hnx-82-Dzy" secondAttribute="leading" constant="16" id="Lsf-wC-4AM"/>
+                            <constraint firstItem="ldQ-Qj-pEc" firstAttribute="leading" secondItem="Hnx-82-Dzy" secondAttribute="leading" constant="16" id="SbF-MS-4xL"/>
+                            <constraint firstItem="dkG-jg-mdz" firstAttribute="top" secondItem="Zjk-33-zdG" secondAttribute="bottom" constant="32" id="Vdz-o0-rIj"/>
+                            <constraint firstItem="ldQ-Qj-pEc" firstAttribute="top" secondItem="Hnx-82-Dzy" secondAttribute="top" constant="32" id="ih4-J8-Ya0"/>
+                            <constraint firstItem="Zjk-33-zdG" firstAttribute="top" secondItem="1Za-eI-CIU" secondAttribute="bottom" constant="8" id="oO4-rT-ZVs"/>
+                            <constraint firstItem="Hnx-82-Dzy" firstAttribute="trailing" secondItem="Zjk-33-zdG" secondAttribute="trailing" constant="16" id="oVh-xC-Bsn"/>
+                            <constraint firstItem="Hnx-82-Dzy" firstAttribute="trailing" secondItem="rE2-1f-cqp" secondAttribute="trailing" constant="16" id="xih-bZ-ktJ"/>
+                            <constraint firstItem="Hnx-82-Dzy" firstAttribute="trailing" secondItem="1Za-eI-CIU" secondAttribute="trailing" constant="16" id="xwg-lm-dGu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Hnx-82-Dzy"/>
                     </view>
