@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4D1B2B0721ADAC1100DA77DE /* HeavyComputationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B2B0621ADAC1100DA77DE /* HeavyComputationViewController.swift */; };
-		4D1D693C219C89BB00F97AFE /* NoAnimationPopUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D693B219C89BB00F97AFE /* NoAnimationPopUIViewController.swift */; };
 		4D20FCE921B6F19D00889F9F /* ListItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20FCE821B6F19D00889F9F /* ListItemsViewController.swift */; };
 		4D20FCF021B6F87500889F9F /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20FCEF21B6F87500889F9F /* ListItem.swift */; };
 		4D20FCF221B6FB6200889F9F /* ListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20FCF121B6FB6200889F9F /* ListItemCell.swift */; };
@@ -352,7 +351,6 @@
 		1D9990A1AADFB556B97E0AD9 /* Pods-Thesis comparison iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thesis comparison iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thesis comparison iOS/Pods-Thesis comparison iOS.release.xcconfig"; sourceTree = "<group>"; };
 		3B1EDF84D649E25DA689CBE9 /* Pods-Thesis comparison iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thesis comparison iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thesis comparison iOSUITests/Pods-Thesis comparison iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4D1B2B0621ADAC1100DA77DE /* HeavyComputationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeavyComputationViewController.swift; sourceTree = "<group>"; };
-		4D1D693B219C89BB00F97AFE /* NoAnimationPopUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoAnimationPopUIViewController.swift; sourceTree = "<group>"; };
 		4D20FCE821B6F19D00889F9F /* ListItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemsViewController.swift; sourceTree = "<group>"; };
 		4D20FCEF21B6F87500889F9F /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		4D20FCF121B6FB6200889F9F /* ListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemCell.swift; sourceTree = "<group>"; };
@@ -1113,7 +1111,6 @@
 				5F9CEA3321289261003F8692 /* Assets.xcassets */,
 				5F9CEA3521289261003F8692 /* LaunchScreen.storyboard */,
 				5F9CEA3821289261003F8692 /* Info.plist */,
-				4D1D693B219C89BB00F97AFE /* NoAnimationPopUIViewController.swift */,
 			);
 			path = "Thesis comparison iOS";
 			sourceTree = "<group>";
@@ -1657,7 +1654,6 @@
 				4D20FCF021B6F87500889F9F /* ListItem.swift in Sources */,
 				4D20FCF221B6FB6200889F9F /* ListItemCell.swift in Sources */,
 				5F9CEA2D21289260003F8692 /* AppDelegate.swift in Sources */,
-				4D1D693C219C89BB00F97AFE /* NoAnimationPopUIViewController.swift in Sources */,
 				4D1B2B0721ADAC1100DA77DE /* HeavyComputationViewController.swift in Sources */,
 				4DADFE3221BDB4AD00614448 /* ThirdPartyNoticesViewController.swift in Sources */,
 				4D20FCE921B6F19D00889F9F /* ListItemsViewController.swift in Sources */,

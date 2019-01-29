@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import AudioToolbox
 
-class VibrationLatencyViewController: NoAnimationPopUIViewController {
+class VibrationLatencyViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         

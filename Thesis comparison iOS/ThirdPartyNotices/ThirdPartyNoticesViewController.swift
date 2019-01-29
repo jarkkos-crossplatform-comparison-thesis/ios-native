@@ -9,6 +9,6 @@
 import Foundation
 import UIKit
 
-class ThirdPartyNoticesViewController: NoAnimationPopUIViewController {
+class ThirdPartyNoticesViewController: UIViewController {
     
 }

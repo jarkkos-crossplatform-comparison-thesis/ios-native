@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class HeavyComputationViewController: NoAnimationPopUIViewController {
+class HeavyComputationViewController: UIViewController {
     var state: ComputationState = .idle
     var curJob: ComputationJob? = nil
 

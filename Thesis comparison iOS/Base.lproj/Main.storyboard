@@ -160,6 +160,11 @@
                                     <constraint firstAttribute="height" constant="12" id="yCP-bm-OxX"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4og-fb-yGP">
+                                <rect key="frame" x="16" y="36" width="136" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Navigate back"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -167,8 +172,10 @@
                             <constraint firstItem="PB1-47-8HL" firstAttribute="centerX" secondItem="FBI-9S-Uvw" secondAttribute="centerX" id="3LR-fI-Aiz"/>
                             <constraint firstItem="Dnu-Up-wKS" firstAttribute="trailing" secondItem="RWT-eF-PDg" secondAttribute="trailing" id="6KJ-Ad-VOC"/>
                             <constraint firstItem="hsR-Sq-9ws" firstAttribute="centerY" secondItem="FBI-9S-Uvw" secondAttribute="centerY" id="KFp-5T-3M1"/>
+                            <constraint firstItem="4og-fb-yGP" firstAttribute="leading" secondItem="Dnu-Up-wKS" secondAttribute="leading" constant="16" id="Q4W-Lp-U5A"/>
                             <constraint firstItem="RWT-eF-PDg" firstAttribute="leading" secondItem="Dnu-Up-wKS" secondAttribute="leading" id="Qil-0N-RVm"/>
                             <constraint firstItem="hsR-Sq-9ws" firstAttribute="centerX" secondItem="FBI-9S-Uvw" secondAttribute="centerX" id="YFi-Qf-cPG"/>
+                            <constraint firstItem="4og-fb-yGP" firstAttribute="top" secondItem="Dnu-Up-wKS" secondAttribute="top" constant="16" id="lLz-sf-9ZY"/>
                             <constraint firstItem="PB1-47-8HL" firstAttribute="top" secondItem="hsR-Sq-9ws" secondAttribute="bottom" constant="32" id="yYw-oW-9ol"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Dnu-Up-wKS"/>

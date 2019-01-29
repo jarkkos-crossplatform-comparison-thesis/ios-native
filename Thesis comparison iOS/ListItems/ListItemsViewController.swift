@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ListItemsViewController: NoAnimationPopUIViewController {
+class ListItemsViewController: UIViewController {
     private weak var tableView: UITableView? = nil
     
     var dataLoader: ItemDataLoader!

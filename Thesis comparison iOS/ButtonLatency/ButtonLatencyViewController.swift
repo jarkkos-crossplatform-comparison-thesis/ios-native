@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ButtonLatencyViewController: NoAnimationPopUIViewController {
+class ButtonLatencyViewController: UIViewController {
     var counter = 0
     var counterLabel: UILabel? = nil
     
@@ -21,6 +21,9 @@ class ButtonLatencyViewController: NoAnimationPopUIViewController {
         
         let incrementBtn = view.viewWithTag(1) as? UIButton
         incrementBtn?.addTarget(self, action: #selector(incrementCounter), for: .touchDown)
+        
+        let goBackBtn = view.viewWithTag(3) as? UIButton
+        goBackBtn?.addTarget(self, action: #selector(navigateBack), for: .touchDown)
     }
     
     @objc func incrementCounter(sender: UIButton) {
@@ -30,5 +33,9 @@ class ButtonLatencyViewController: NoAnimationPopUIViewController {
     
     func updateLabel() {
         self.counterLabel?.text = String(counter)
+    }
+    
+    @objc func navigateBack(sender: UIButton) {
+        navigationController?.popViewController(animated: false)
     }
 }
